@@ -67,7 +67,7 @@ export default function Home() {
     }
 
     function handleAnniversaryChange() {
-        const meetDate = prompt('Enter the anniversary date (YYYY-MM-DD):');
+        const meetDate = prompt('日付を入力 (YYYY-MM-DD):');
         if (meetDate) {
             const startDate = new Date(meetDate);
             if (!isNaN(startDate)) {
